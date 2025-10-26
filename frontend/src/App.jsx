@@ -18,7 +18,9 @@ import MunshiDashboard from "./pages/munshi/MunshiDashboard";
 import AdminDashboard from "./pages/admin/AdminDashboard"; // <-- Make sure this file exists
 
 export default function App() {
+  
   return (
+    
     <Router>
       <Routes>
         {/* 1. Public Routes: These pages WILL have the Navbar and Footer */}
@@ -39,3 +41,4 @@ export default function App() {
     </Router>
   );
 }
+
